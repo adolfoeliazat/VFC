@@ -7,7 +7,7 @@ The code is run from the command-line like:
   $ python video_frames_classifier.py '224.1.1.1'
 
 The code to send the UDP messages is "send_UDP_messages_to_listeners_multicast.py". This should be run from a system on the same network (or even another terminal on the same system) as follows:
-  $ vpy34 send_UDP_message_to_listeners_multicast.py predict outputTest.avi
+  $ python send_UDP_message_to_listeners_multicast.py predict outputTest.avi
  where "predict" is the commnd and "outputTest.avi" is the videofile to be analyzed.
 
 Requirements:
